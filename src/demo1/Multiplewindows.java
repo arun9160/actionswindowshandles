@@ -28,6 +28,8 @@ public class Multiplewindows {
 		System.out.println(driver.getTitle());
 		driver.switchTo().window(Parent);
 		System.out.println(driver.getCurrentUrl());
+		driver.switchTo().window(child);
+		System.out.println(driver.getTitle());
 
 	}
 
