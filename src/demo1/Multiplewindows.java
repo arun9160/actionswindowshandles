@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Multiplewindows {
 
-	public static void main(String[] args) {
+	public static void main(String[] args, Object allWindowHandels) {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver", "E:\\WorkSpace\\SeleniumDemos\\Libs\\chromedriver.exe");
@@ -20,6 +20,9 @@ public class Multiplewindows {
 		driver.findElement(By.xpath("//*[@id='sites-canvas-main-content']/table/tbody/tr/td/div/h2/font/a")).click();
 		// Store all window ids
 		Set<String> ids = driver.getWindowHandles();
+		
+		
+
 		// iterate one after another
 		Iterator<String> it = ids.iterator();
 		String Parent = it.next();

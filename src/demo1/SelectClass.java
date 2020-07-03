@@ -4,7 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SelectClass {
 
@@ -15,8 +17,14 @@ public class SelectClass {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.spicejet.com/");
-		driver.findElement(By.xpath("//*[@id='divpaxinfo']")).click();
+		//driver.findElement(By.xpath("//*[@id='divpaxinfo']"));
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		
+		//Explicit wait 
+		WebDriverWait w = new WebDriverWait(driver, 5);
+		w.until(ExpectedConditions.visibilityOfElementLocated(By.id("ctl00_mainContent_ddl_Adult")));
+		
+		
 		Select s = new Select(driver.findElement(By.id("ctl00_mainContent_ddl_Adult")));
 		s.selectByValue("3");
 		// driver.close();

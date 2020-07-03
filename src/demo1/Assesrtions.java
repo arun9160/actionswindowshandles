@@ -1,5 +1,6 @@
 package demo1;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,6 +14,8 @@ public class Assesrtions {
 		System.setProperty("webdriver.chrome.driver", "E:\\WorkSpace\\SeleniumDemos\\Libs\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
+		driver.findElement(By.xpath("//*[@id='radio-btn-example']/fieldset/label[1]")).click();
+		
 
 	}
 

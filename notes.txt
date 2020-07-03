@@ -1,0 +1,15 @@
+implicit wait :implicit default wait time is zero 
+wait for n number of seconds before throwing an exception you define it  it global level to wait before throwing an exception. That means for each and evry step it is applicable 
+
+
+
+Explicit wait : for any scenario we can use this .. not global define for specific scenarios only we can use explicit. To target specific elemenst we can use this
+
+if we give waebdriver wait time 10 sec it will keep on lookng for thw object every milliseocnd it will moniter the DOM 
+
+Thread.sleep : You can stop entirly test execution for n number of seconds in perticuler wait with out lisiting any DOm 
+
+Fluent wait: if we give 10 sec and polling 2 sec that means for that every 2 sec it will looking for element until 10seconds or given duration 
+
+
+frame : driver.switchTo().frame(by webelemnt) or string/name of frame / index
