@@ -12,4 +12,9 @@ Thread.sleep : You can stop entirly test execution for n number of seconds in pe
 Fluent wait: if we give 10 sec and polling 2 sec that means for that every 2 sec it will looking for element until 10seconds or given duration 
 
 
-frame : driver.switchTo().frame(by webelemnt) or string/name of frame / index
+frame : driver.switchTo().frame(by webelemnt) or string/name of frame / index	
+
+eclips -java
+c# visual; studio java
+envrionamental pth 
+selenium files
