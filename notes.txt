@@ -13,8 +13,6 @@ Fluent wait: if we give 10 sec and polling 2 sec that means for that every 2 sec
 
 
 frame : driver.switchTo().frame(by webelemnt) or string/name of frame / index	
+ifw e want to swithc back to main  page driver.switchto().defaultContent();
 
-eclips -java
-c# visual; studio java
-envrionamental pth 
-selenium files
+
