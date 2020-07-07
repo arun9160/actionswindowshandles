@@ -14,5 +14,11 @@ Fluent wait: if we give 10 sec and polling 2 sec that means for that every 2 sec
 
 frame : driver.switchTo().frame(by webelemnt) or string/name of frame / index	
 ifw e want to swithc back to main  page driver.switchto().defaultContent();
+we can not jump one frame to another frame. 
+frame1
+default content or main page
+frame2
+default content or main page
+frame3 
 
 
