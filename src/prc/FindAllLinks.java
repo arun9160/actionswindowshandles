@@ -24,6 +24,8 @@ public class FindAllLinks {
 			
 			System.out.println(links.get(i).getAttribute("href"));
 		}
+		
+		
 	}	
 
 }
