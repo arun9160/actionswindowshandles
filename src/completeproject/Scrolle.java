@@ -21,12 +21,14 @@ public class Scrolle {
 		
 		//visibility of element
 		WebElement ele = driver.findElement(By.xpath("//input[@id='hide-textbox']"));
-		//js.executeScript("arguments[0].scrollIntoView();", ele);
+	//	js.executeScript("arguments[0].scrollIntoView();", ele);
+		js.executeScript("arguments[0].scrollIntoView();", ele);
 		
 		// to the end of the page
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		
-		//
+		//horizontal
+		
 		
 	}
 
