@@ -21,7 +21,8 @@ public class Frames {
 		driver.switchTo().frame(driver.findElement(By.className("demo-frame")));
 		
 		Actions act = new Actions(driver);
-		act.moveToElement(driver.findElement(By.id("draggable"))).clickAndHold().dragAndDrop(driver.findElement(By.id("draggable")), driver.findElement(By.id("droppable"))).build().perform();
+		//act.moveToElement(driver.findElement(By.id("draggable"))).clickAndHold().dragAndDrop(driver.findElement(By.id("draggable")), driver.findElement(By.id("droppable"))).build().perform();
+		act.dragAndDrop(driver.findElement(By.id("draggable")), driver.findElement(By.id("droppable")));
 	}
 
 }
