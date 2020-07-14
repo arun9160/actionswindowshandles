@@ -1,35 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[The browser instance is matched and opening chrome browser]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="13652" started-at="2020-07-10T21:39:25 IST" finished-at="2020-07-10T21:39:39 IST">
+  <suite name="Suite" duration-ms="39550" started-at="2020-07-14T12:08:00 IST" finished-at="2020-07-14T12:08:40 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13652" started-at="2020-07-10T21:39:25 IST" finished-at="2020-07-10T21:39:39 IST">
-      <class name="prc.NewTest">
-        <test-method status="FAIL" signature="capturescreensheet()[pri:0, instance:prc.NewTest@1f36e637]" name="capturescreensheet" duration-ms="9022" started-at="2020-07-10T21:39:25 IST" finished-at="2020-07-10T21:39:34 IST">
+    <test name="Test" duration-ms="39550" started-at="2020-07-14T12:08:00 IST" finished-at="2020-07-14T12:08:40 IST">
+      <class name="prc2.Ejsdfsjgh">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="setup" is-config="true" duration-ms="5610" started-at="2020-07-14T12:08:00 IST" finished-at="2020-07-14T12:08:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser instance is matched and opening chrome browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="google(java.lang.String)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="google" duration-ms="8744" started-at="2020-07-14T12:08:06 IST" finished-at="2020-07-14T12:08:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="teardown" is-config="true" duration-ms="2" started-at="2020-07-14T12:08:14 IST" finished-at="2020-07-14T12:08:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=google status=SUCCESS method=Ejsdfsjgh.google(java.lang.String)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="FAIL" signature="data()[pri:1, instance:prc2.Ejsdfsjgh@50b494a6]" name="data" duration-ms="24556" started-at="2020-07-14T12:08:14 IST" finished-at="2020-07-14T12:08:39 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='jshg']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"jdfhkjsdfh"}
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-B8IRFS0', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+System info: host: 'DESKTOP-B8IRFS0', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Siva\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 082b85d9f0fd13be0004a3b150369880
-*** Element info: {Using=xpath, value=//*[@id='jshg']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Siva\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 245014eedb76b0923af48142d8357c9a
+*** Element info: {Using=xpath, value=jdfhkjsdfh}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='jshg']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"jdfhkjsdfh"}
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-B8IRFS0', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+System info: host: 'DESKTOP-B8IRFS0', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Siva\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 082b85d9f0fd13be0004a3b150369880
-*** Element info: {Using=xpath, value=//*[@id='jshg']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Siva\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 245014eedb76b0923af48142d8357c9a
+*** Element info: {Using=xpath, value=jdfhkjsdfh}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -44,7 +83,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at prc.NewTest.capturescreensheet(NewTest.java:25)
+at prc2.Ejsdfsjgh.data(Ejsdfsjgh.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -78,19 +117,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- capturescreensheet -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestResult)[pri:0, instance:prc.NewTest@1f36e637]" name="afterClass" is-config="true" duration-ms="4544" started-at="2020-07-10T21:39:34 IST" finished-at="2020-07-10T21:39:39 IST">
+        </test-method> <!-- data -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="teardown" is-config="true" duration-ms="447" started-at="2020-07-14T12:08:39 IST" finished-at="2020-07-14T12:08:39 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=capturescreensheet status=FAILURE method=NewTest.capturescreensheet()[pri:0, instance:prc.NewTest@1f36e637] output={null}]]]>
+                <![CDATA[[TestResult name=data status=FAILURE method=Ejsdfsjgh.data()[pri:1, instance:prc2.Ejsdfsjgh@50b494a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- prc.NewTest -->
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="teardown" is-config="true" duration-ms="124" started-at="2020-07-14T12:08:39 IST" finished-at="2020-07-14T12:08:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- prc2.Ejsdfsjgh -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -2,8 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <parameter name = "browser" value="chrome"/>
+  <parameter name ="url" value='https://www.google.com'/>
   <classes>
-  <class name="prc.NewTest"/>
-  </classes>
+   <class name="prc2.Ejsdfsjgh"/>
+   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

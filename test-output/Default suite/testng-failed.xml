@@ -3,12 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="prc.NewTest">
+      <class name="prc2.Ejsdfsjgh">
         <methods>
-          <include name="afterClass"/>
-          <include name="capturescreensheet"/>
+          <include name="google"/>
+          <include name="setup"/>
+          <include name="data"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- prc.NewTest -->
+      </class> <!-- prc2.Ejsdfsjgh -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
