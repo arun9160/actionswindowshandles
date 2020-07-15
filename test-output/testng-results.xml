@@ -5,12 +5,12 @@
       <![CDATA[The browser instance is matched and opening chrome browser]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="39550" started-at="2020-07-14T12:08:00 IST" finished-at="2020-07-14T12:08:40 IST">
+  <suite name="Suite" duration-ms="22218" started-at="2020-07-15T12:15:00 IST" finished-at="2020-07-15T12:15:22 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="39550" started-at="2020-07-14T12:08:00 IST" finished-at="2020-07-14T12:08:40 IST">
+    <test name="Test" duration-ms="22218" started-at="2020-07-15T12:15:00 IST" finished-at="2020-07-15T12:15:22 IST">
       <class name="prc2.Ejsdfsjgh">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="setup" is-config="true" duration-ms="5610" started-at="2020-07-14T12:08:00 IST" finished-at="2020-07-14T12:08:06 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="setup" is-config="true" duration-ms="9702" started-at="2020-07-15T12:15:00 IST" finished-at="2020-07-15T12:15:10 IST">
           <params>
             <param index="0">
               <value>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="google(java.lang.String)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="google" duration-ms="8744" started-at="2020-07-14T12:08:06 IST" finished-at="2020-07-14T12:08:14 IST">
+        <test-method status="PASS" signature="google(java.lang.String)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="google" duration-ms="4418" started-at="2020-07-15T12:15:10 IST" finished-at="2020-07-15T12:15:14 IST">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- google -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="teardown" is-config="true" duration-ms="2" started-at="2020-07-14T12:08:14 IST" finished-at="2020-07-14T12:08:14 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="teardown" is-config="true" duration-ms="5" started-at="2020-07-15T12:15:14 IST" finished-at="2020-07-15T12:15:14 IST">
           <params>
             <param index="0">
               <value>
@@ -46,17 +46,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="FAIL" signature="data()[pri:1, instance:prc2.Ejsdfsjgh@50b494a6]" name="data" duration-ms="24556" started-at="2020-07-14T12:08:14 IST" finished-at="2020-07-14T12:08:39 IST">
+        <test-method status="FAIL" signature="data()[pri:1, instance:prc2.Ejsdfsjgh@50b494a6]" name="data" duration-ms="7011" started-at="2020-07-15T12:15:14 IST" finished-at="2020-07-15T12:15:21 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"jdfhkjsdfh"}
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-B8IRFS0', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+System info: host: 'DESKTOP-B8IRFS0', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Siva\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 245014eedb76b0923af48142d8357c9a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Siva\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 89f0530524baedcdd0cae3932dc47377
 *** Element info: {Using=xpath, value=jdfhkjsdfh}]]>
             </message>
             <full-stacktrace>
@@ -64,10 +64,10 @@ Session ID: 245014eedb76b0923af48142d8357c9a
   (Session info: chrome=83.0.4103.116)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-B8IRFS0', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+System info: host: 'DESKTOP-B8IRFS0', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Siva\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 245014eedb76b0923af48142d8357c9a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Siva\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 89f0530524baedcdd0cae3932dc47377
 *** Element info: {Using=xpath, value=jdfhkjsdfh}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -83,7 +83,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at prc2.Ejsdfsjgh.data(Ejsdfsjgh.java:65)
+at prc2.Ejsdfsjgh.data(Ejsdfsjgh.java:66)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -118,7 +118,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- data -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="teardown" is-config="true" duration-ms="447" started-at="2020-07-14T12:08:39 IST" finished-at="2020-07-14T12:08:39 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="teardown" is-config="true" duration-ms="727" started-at="2020-07-15T12:15:21 IST" finished-at="2020-07-15T12:15:22 IST">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="teardown" is-config="true" duration-ms="124" started-at="2020-07-14T12:08:39 IST" finished-at="2020-07-14T12:08:40 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:prc2.Ejsdfsjgh@50b494a6]" name="teardown" is-config="true" duration-ms="268" started-at="2020-07-15T12:15:22 IST" finished-at="2020-07-15T12:15:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

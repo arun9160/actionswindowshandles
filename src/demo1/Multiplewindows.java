@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Multiplewindows {
 
-	public static void main(String[] args, Object allWindowHandels) {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver", "E:\\WorkSpace\\SeleniumDemos\\Libs\\chromedriver.exe");
@@ -21,10 +21,12 @@ public class Multiplewindows {
 		// Store all window ids
 		Set<String> ids = driver.getWindowHandles();
 		
+		System.out.println(ids);
+		
 		
 
 		// iterate one after another
-		Iterator<String> it = ids.iterator();
+		/*Iterator<String> it = ids.iterator();
 		String Parent = it.next();
 		String child = it.next();
 		driver.switchTo().window(child);
@@ -33,7 +35,7 @@ public class Multiplewindows {
 		System.out.println(driver.getCurrentUrl());
 		driver.switchTo().window(child);
 		System.out.println(driver.getTitle());
-
+*/
 	}
 
 }

@@ -18,6 +18,7 @@ import org.testng.annotations.Test;
 
 public class Ejsdfsjgh {
 	
+	
 	WebDriver driver;
 	
 	@Parameters({"browser"})
@@ -41,9 +42,9 @@ public class Ejsdfsjgh {
 			}
 	}
 
-	
-	@Test(priority=0)
 	@Parameters("url")
+	@Test(priority=0)
+
 	public void google(String url) throws InterruptedException {
 		
 		driver.get(url);
